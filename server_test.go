@@ -1,17 +1,11 @@
-// Copyright (c) 2015 Pagoda Box Inc
-//
-// This Source Code Form is subject to the terms of the Mozilla Public License, v.
-// 2.0. If a copy of the MPL was not distributed with this file, You can obtain one
-// at http://mozilla.org/MPL/2.0/.
-//
 
 package discovery_test
 
 import (
 	"github.com/golang/mock/gomock"
-	"github.com/nanobox-io/golang-discovery"
-	"github.com/nanobox-io/golang-discovery/mock"
-	"github.com/nanobox-io/golang-discovery/mock-closer"
+	"github.com/mu-box/golang-discovery"
+	"github.com/mu-box/golang-discovery/mock"
+	"github.com/mu-box/golang-discovery/mock-closer"
 	"net"
 	"testing"
 	"time"
